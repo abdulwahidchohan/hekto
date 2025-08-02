@@ -6,7 +6,7 @@ import { Provider } from 'react-redux';
 import { store } from './redux/store';
 import Loader from './helper/Loader';
 
-const AppComponent = lazy(() => import("./App"));
+const AppComponent = lazy(() => import("./page"));
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

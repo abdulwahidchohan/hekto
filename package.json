@@ -12,9 +12,10 @@
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
     "@types/react-redux": "^7.1.24",
-    "firebase": "^9.13.0",
+    "firebase": "^11.2.0",
     "formik": "^2.2.9",
     "framer-motion": "^7.6.5",
+    "next": "^15.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.6.0",
@@ -29,8 +30,9 @@
     "yup": "^0.32.11"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "next dev",
     "build": "react-scripts build",
+    "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build_tailwind": "npx tailwindcss-cli -i ./src/index.css -o ./public/output.css --watch --minify"
@@ -59,7 +61,6 @@
     "css-select": "^5.1.0",
     "loader-utils": "^3.2.1",
     "nth-check": "*",
-    "react-scripts": "*",
     "tailwindcss": "^3.2.2"
   },
   "overrides": {
